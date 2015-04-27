@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessfunction() {
+  return null;
+}
 //end your code
 
 var bar = 'not a function';
@@ -30,7 +32,15 @@ var barType = typeof bar;
 */
 
 //your code here
-
+var bar = [1,2,3,4].map( function(item) { 
+    item1=item;
+    item * 2;  
+    if ((item / 2) == item1){
+        return true;
+    } else {
+        return false;
+    }
+});
 //end your code
 
 /**
@@ -66,5 +76,10 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+var logArray = {"|hash | |             date           | |   message    |", "|hash | |             date           | |   message    |", "|hash | |             date           | |   message    |"};
 
+function parseGit(logArray){
+    var GitLog = new Object();
+    return GitLog;
+}
 //end your code
